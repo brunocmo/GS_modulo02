@@ -25,7 +25,6 @@ function App() {
     const project = res.data;
 
     setProjects([...projects, project]);
-  //  console.log(projects);
   }
 
   return (
